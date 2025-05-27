@@ -31,7 +31,10 @@ a {
     font-weight: 500;
 }
 
-.hightlight {
-    background-color:black;
+.highlight {
+    background-color: black;
+}
 
+.list-text {
+    font-size: 20px;
 }
