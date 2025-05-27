@@ -1,7 +1,7 @@
 body {
     font-family: Courier, serif;
     background-color: yellow;
-    
+
 }
 
 .header {
@@ -20,11 +20,17 @@ body {
 }
 
 .list-container {
+    display: flex;
     width: 300px;
     margin: auto;
     background-color: cornflowerblue;
     padding: 40px;
     border-radius: 25%;
+}
+
+.list-container .child-div {
+    flex: auto;
+    width: 300px;
 }
 
 .list-text,
@@ -39,4 +45,25 @@ a {
 
 .list-text {
     font-size: 20px;
+}
+
+.parent-div {
+    display: flex;
+    margin: 10px auto;
+    width: 800px;
+    height: 300px;
+    background-color: aqua;
+    border: black solid 9px;
+}
+
+.parent-div .child-div1 {
+    flex: auto;
+    background-color: orange;
+    width: 50px;
+}
+
+.parent-div .child-div2 {
+    background-color: white;
+    flex: auto;
+    width: 400px;
 }
