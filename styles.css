@@ -57,13 +57,19 @@ a {
 }
 
 .parent-div .child-div1 {
-    flex: auto;
+    flex: 1;
     background-color: orange;
-    width: 50px;
+    width: 250px;
 }
 
 .parent-div .child-div2 {
     background-color: white;
     flex: auto;
-    width: 400px;
+    width: 300px;
+}
+
+.parent-div .child-div3 {
+    background-color: red;
+    width: 250px;
+    flex: 1;
 }
