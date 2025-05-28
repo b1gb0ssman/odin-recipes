@@ -1,7 +1,7 @@
+
 body {
     font-family: Courier, serif;
     background-color: yellow;
-
 }
 
 .header {
@@ -72,4 +72,21 @@ a {
     background-color: red;
     width: 250px;
     flex: 1;
+}
+
+.header-link {
+    width: 400px;
+    margin: auto;
+    background-color: blue;
+}
+.recipe-desc {
+    background-color: #0067ac;
+    width: 70%;
+    margin: auto;
+}
+
+.recipe-image {
+    width: 500px;
+    margin: auto;
+    justify-content: center;
 }
