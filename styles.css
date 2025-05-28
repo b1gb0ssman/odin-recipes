@@ -75,17 +75,21 @@ a {
 }
 
 .header-link {
-    width: 400px;
+    display: flex;
+    width: 300px;
     margin: auto;
     background-color: blue;
+    flex: auto;
 }
 .recipe-desc {
+    display: flex;
     background-color: #0067ac;
     width: 70%;
     margin: auto;
 }
 
 .recipe-image {
+    display: flex;
     width: 500px;
     margin: auto;
     justify-content: center;
