@@ -20,7 +20,7 @@ body {
     flex: 1;
     gap: 3rem;
     border: solid black 5px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .home_list-container li {
@@ -28,6 +28,9 @@ body {
     background-color: red;
     padding: 5px 10px;
     border: 5px blue solid;
+}
+
+.home_list-container a {
     color: white;
 }
 
