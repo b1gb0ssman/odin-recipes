@@ -20,6 +20,7 @@ body {
     flex: 1;
     gap: 1.5rem;
     border: solid black 5px;
+    align-items:center;
     justify-content: space-evenly;
 }
 
@@ -31,9 +32,11 @@ body {
     list-style: none;
 }
 
-.home_list-item:nth-child(3) {
-    justify-content: flex-end;
-}
+/*
+.home_list-item:nth-child(1) {
+    align-self: center;
+} 
+*/
 
 .home_list-container a {
     color: white;
