@@ -80,6 +80,18 @@ a {
     margin: auto;
     background-color: blue;
     flex: auto;
+    text-align: center;
+}
+
+.about_header-desc {
+    color: white;
+    text-align: center;
+    background-color: #0067ac;
+    margin: auto;
+    width: 200px;
+    height: 100px; 
+    margin-bottom: 20px;
+    border-radius: 5%;
 }
 .recipe-desc {
     display: flex;
