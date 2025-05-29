@@ -47,6 +47,8 @@ a {
     font-size: 20px;
 }
 
+/*
+
 .parent-div {
     display: flex;
     margin: 10px auto;
@@ -60,7 +62,7 @@ a {
     flex: 1;
     background-color: orange;
     width: 250px;
-}
+} 
 
 .parent-div .child-div2 {
     background-color: white;
@@ -73,6 +75,8 @@ a {
     width: 250px;
     flex: 1;
 }
+    
+*/
 
 .header-link {
     display: flex;
@@ -87,7 +91,6 @@ a {
 
 .about_header-desc {
     color: white;
-    text-align: center;
     background-color: #0067ac;
     margin: auto;
     width: 200px;
