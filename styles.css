@@ -18,9 +18,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
-    gap: 3rem;
+    gap: 1.5rem;
     border: solid black 5px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .home_list-container li {
@@ -34,7 +34,7 @@ body {
     color: white;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .home_list-container {
         flex-direction: column;
     }
