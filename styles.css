@@ -28,6 +28,7 @@ body {
     background-color: red;
     padding: 5px 10px;
     border: 5px blue solid;
+    list-style: none;
 }
 
 .home_list-container a {
