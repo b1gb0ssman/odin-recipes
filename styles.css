@@ -76,11 +76,13 @@ a {
 
 .header-link {
     display: flex;
-    width: 300px;
+    width: 100px;
     margin: auto;
     background-color: blue;
     flex: auto;
     text-align: center;
+    padding-left: 45px;
+    font-size: 24px;
 }
 
 .about_header-desc {
@@ -92,6 +94,7 @@ a {
     height: 100px; 
     margin-bottom: 20px;
     border-radius: 5%;
+    padding: 5px 15px 25px 15px;
 }
 .recipe-desc {
     display: flex;
