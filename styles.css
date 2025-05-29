@@ -31,9 +31,14 @@ body {
     list-style: none;
 }
 
+.home_list-item:nth-child(3) {
+    justify-content: flex-end;
+}
+
 .home_list-container a {
     color: white;
 }
+
 
 @media (max-width: 500px) {
     .home_list-container {
